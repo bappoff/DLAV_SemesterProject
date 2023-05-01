@@ -1,132 +1,0 @@
-Looking in links: https://download.pytorch.org/whl/torch_stable.html
-Collecting torch==1.9.1+cu111
-  WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', ConnectionResetError(104, 'Connection reset by peer'))': /whl/cu111/torch-1.9.1%2Bcu111-cp36-cp36m-linux_x86_64.whl
-  Using cached https://download.pytorch.org/whl/cu111/torch-1.9.1%2Bcu111-cp36-cp36m-linux_x86_64.whl (2041.3 MB)
-WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', ConnectionResetError(104, 'Connection reset by peer'))': /whl/torch_stable.html
-WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', ConnectionResetError(104, 'Connection reset by peer'))': /simple/torchvision/
-Collecting torchvision==0.10.1+cu111
-  Using cached https://download.pytorch.org/whl/cu111/torchvision-0.10.1%2Bcu111-cp36-cp36m-linux_x86_64.whl (20.6 MB)
-Requirement already satisfied: torchaudio==0.9.1 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (0.9.1)
-Requirement already satisfied: typing-extensions in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from torch==1.9.1+cu111) (4.1.1)
-Requirement already satisfied: dataclasses in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from torch==1.9.1+cu111) (0.8)
-Requirement already satisfied: numpy in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from torchvision==0.10.1+cu111) (1.19.5)
-Requirement already satisfied: pillow>=5.3.0 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from torchvision==0.10.1+cu111) (8.4.0)
-Installing collected packages: torch, torchvision
-  Attempting uninstall: torch
-    Found existing installation: torch 1.9.1
-    Uninstalling torch-1.9.1:
-      Successfully uninstalled torch-1.9.1
-  Attempting uninstall: torchvision
-    Found existing installation: torchvision 0.11.2
-    Uninstalling torchvision-0.11.2:
-      Successfully uninstalled torchvision-0.11.2
-Successfully installed torch-1.9.1+cu111 torchvision-0.10.1+cu111
-Requirement already satisfied: mmcv-full==1.4.0 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (1.4.0)
-Requirement already satisfied: addict in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from mmcv-full==1.4.0) (2.4.0)
-Requirement already satisfied: opencv-python>=3 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from mmcv-full==1.4.0) (4.7.0.72)
-Requirement already satisfied: pyyaml in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from mmcv-full==1.4.0) (6.0)
-Requirement already satisfied: yapf in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from mmcv-full==1.4.0) (0.32.0)
-Requirement already satisfied: Pillow in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from mmcv-full==1.4.0) (8.4.0)
-Requirement already satisfied: packaging in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from mmcv-full==1.4.0) (21.3)
-Requirement already satisfied: numpy in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from mmcv-full==1.4.0) (1.19.5)
-Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from packaging->mmcv-full==1.4.0) (3.0.9)
-Collecting mmdet==2.14.0
-  Using cached mmdet-2.14.0-py3-none-any.whl (618 kB)
-Requirement already satisfied: terminaltables in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from mmdet==2.14.0) (3.1.10)
-Requirement already satisfied: pycocotools in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from mmdet==2.14.0) (2.0.6)
-Requirement already satisfied: six in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from mmdet==2.14.0) (1.16.0)
-Requirement already satisfied: numpy in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from mmdet==2.14.0) (1.19.5)
-Requirement already satisfied: matplotlib in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from mmdet==2.14.0) (3.3.4)
-Requirement already satisfied: kiwisolver>=1.0.1 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from matplotlib->mmdet==2.14.0) (1.3.1)
-Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.3 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from matplotlib->mmdet==2.14.0) (3.0.9)
-Requirement already satisfied: python-dateutil>=2.1 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from matplotlib->mmdet==2.14.0) (2.8.2)
-Requirement already satisfied: pillow>=6.2.0 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from matplotlib->mmdet==2.14.0) (8.4.0)
-Requirement already satisfied: cycler>=0.10 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from matplotlib->mmdet==2.14.0) (0.11.0)
-Installing collected packages: mmdet
-  Attempting uninstall: mmdet
-    Found existing installation: mmdet 3.0.0
-    Uninstalling mmdet-3.0.0:
-      Successfully uninstalled mmdet-3.0.0
-Successfully installed mmdet-2.14.0
-Collecting mmsegmentation==0.14.1
-  Using cached mmsegmentation-0.14.1-py3-none-any.whl (201 kB)
-Requirement already satisfied: prettytable in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from mmsegmentation==0.14.1) (2.5.0)
-Requirement already satisfied: matplotlib in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from mmsegmentation==0.14.1) (3.3.4)
-Requirement already satisfied: numpy in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from mmsegmentation==0.14.1) (1.19.5)
-Requirement already satisfied: cycler>=0.10 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from matplotlib->mmsegmentation==0.14.1) (0.11.0)
-Requirement already satisfied: python-dateutil>=2.1 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from matplotlib->mmsegmentation==0.14.1) (2.8.2)
-Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.3 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from matplotlib->mmsegmentation==0.14.1) (3.0.9)
-Requirement already satisfied: pillow>=6.2.0 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from matplotlib->mmsegmentation==0.14.1) (8.4.0)
-Requirement already satisfied: kiwisolver>=1.0.1 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from matplotlib->mmsegmentation==0.14.1) (1.3.1)
-Requirement already satisfied: importlib-metadata in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from prettytable->mmsegmentation==0.14.1) (4.8.3)
-Requirement already satisfied: wcwidth in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from prettytable->mmsegmentation==0.14.1) (0.2.6)
-Requirement already satisfied: six>=1.5 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from python-dateutil>=2.1->matplotlib->mmsegmentation==0.14.1) (1.16.0)
-Requirement already satisfied: zipp>=0.5 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from importlib-metadata->prettytable->mmsegmentation==0.14.1) (3.6.0)
-Requirement already satisfied: typing-extensions>=3.6.4 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from importlib-metadata->prettytable->mmsegmentation==0.14.1) (4.1.1)
-Installing collected packages: mmsegmentation
-  Attempting uninstall: mmsegmentation
-    Found existing installation: mmsegmentation 1.0.0
-    Uninstalling mmsegmentation-1.0.0:
-      Successfully uninstalled mmsegmentation-1.0.0
-Successfully installed mmsegmentation-0.14.1
-Cloning into 'mmdetection3d'...
-Checking out files:   3% (33/1025)   Checking out files:   4% (41/1025)   Checking out files:   5% (52/1025)   Checking out files:   6% (62/1025)   Checking out files:   7% (72/1025)   Checking out files:   8% (82/1025)   Checking out files:   9% (93/1025)   Checking out files:  10% (103/1025)   Checking out files:  11% (113/1025)   Checking out files:  12% (123/1025)   Checking out files:  13% (134/1025)   Checking out files:  13% (140/1025)   Checking out files:  14% (144/1025)   Checking out files:  15% (154/1025)   Checking out files:  16% (164/1025)   Checking out files:  17% (175/1025)   Checking out files:  18% (185/1025)   Checking out files:  19% (195/1025)   Checking out files:  20% (205/1025)   Checking out files:  21% (216/1025)   Checking out files:  22% (226/1025)   Checking out files:  23% (236/1025)   Checking out files:  24% (246/1025)   Checking out files:  25% (257/1025)   Checking out files:  26% (267/1025)   Checking out files:  27% (277/1025)   Checking out files:  28% (287/1025)   Checking out files:  29% (298/1025)   Checking out files:  30% (308/1025)   Checking out files:  31% (318/1025)   Checking out files:  32% (328/1025)   Checking out files:  33% (339/1025)   Checking out files:  34% (349/1025)   Checking out files:  35% (359/1025)   Checking out files:  36% (369/1025)   Checking out files:  36% (371/1025)   Checking out files:  37% (380/1025)   Checking out files:  38% (390/1025)   Checking out files:  39% (400/1025)   Checking out files:  40% (410/1025)   Checking out files:  41% (421/1025)   Checking out files:  42% (431/1025)   Checking out files:  43% (441/1025)   Checking out files:  44% (451/1025)   Checking out files:  45% (462/1025)   Checking out files:  46% (472/1025)   Checking out files:  47% (482/1025)   Checking out files:  48% (492/1025)   Checking out files:  49% (503/1025)   Checking out files:  50% (513/1025)   Checking out files:  51% (523/1025)   Checking out files:  52% (533/1025)   Checking out files:  53% (544/1025)   Checking out files:  54% (554/1025)   Checking out files:  55% (564/1025)   Checking out files:  55% (566/1025)   Checking out files:  56% (574/1025)   Checking out files:  57% (585/1025)   Checking out files:  58% (595/1025)   Checking out files:  59% (605/1025)   Checking out files:  60% (615/1025)   Checking out files:  61% (626/1025)   Checking out files:  62% (636/1025)   Checking out files:  63% (646/1025)   Checking out files:  64% (656/1025)   Checking out files:  65% (667/1025)   Checking out files:  66% (677/1025)   Checking out files:  67% (687/1025)   Checking out files:  68% (697/1025)   Checking out files:  69% (708/1025)   Checking out files:  70% (718/1025)   Checking out files:  71% (728/1025)   Checking out files:  72% (738/1025)   Checking out files:  73% (749/1025)   Checking out files:  74% (759/1025)   Checking out files:  75% (769/1025)   Checking out files:  76% (779/1025)   Checking out files:  77% (790/1025)   Checking out files:  78% (800/1025)   Checking out files:  79% (810/1025)   Checking out files:  80% (820/1025)   Checking out files:  81% (831/1025)   Checking out files:  82% (841/1025)   Checking out files:  83% (851/1025)   Checking out files:  84% (861/1025)   Checking out files:  85% (872/1025)   Checking out files:  86% (882/1025)   Checking out files:  87% (892/1025)   Checking out files:  88% (902/1025)   Checking out files:  89% (913/1025)   Checking out files:  90% (923/1025)   Checking out files:  91% (933/1025)   Checking out files:  91% (941/1025)   Checking out files:  92% (943/1025)   Checking out files:  93% (954/1025)   Checking out files:  94% (964/1025)   Checking out files:  95% (974/1025)   Checking out files:  96% (984/1025)   Checking out files:  97% (995/1025)   Checking out files:  98% (1005/1025)   Checking out files:  99% (1015/1025)   Checking out files: 100% (1025/1025)   Checking out files: 100% (1025/1025), done.
-Note: checking out 'v0.17.1'.
-
-You are in 'detached HEAD' state. You can look around, make experimental
-changes and commit them, and you can discard any commits you make in this
-state without impacting any branches by performing another checkout.
-
-If you want to create a new branch to retain commits you create, you may
-do so (now or later) by using -b with the checkout command again. Example:
-
-  git checkout -b new_branch_name
-
-HEAD is now at f110797... Bump to v0.17.1 (#978)
-Using pip 21.3.1 from /home/bpoffet/VoxFormer/voxformer_env/lib64/python3.6/site-packages/pip (python 3.6)
-Obtaining file:///home/bpoffet/VoxFormer/voxformer_env/DLAV_SemesterProject/scripts/mmdetection3d
-  Preparing metadata (setup.py): started
-  Running command python setup.py egg_info
-  Traceback (most recent call last):
-    File "<string>", line 1, in <module>
-    File "/home/bpoffet/VoxFormer/voxformer_env/DLAV_SemesterProject/scripts/mmdetection3d/setup.py", line 244, in <module>
-      extra_args=['-w', '-std=c++14']),
-    File "/home/bpoffet/VoxFormer/voxformer_env/DLAV_SemesterProject/scripts/mmdetection3d/setup.py", line 63, in make_cuda_ext
-      extra_compile_args=extra_compile_args)
-    File "/home/bpoffet/VoxFormer/voxformer_env/lib64/python3.6/site-packages/torch/utils/cpp_extension.py", line 868, in CUDAExtension
-      library_dirs += library_paths(cuda=True)
-    File "/home/bpoffet/VoxFormer/voxformer_env/lib64/python3.6/site-packages/torch/utils/cpp_extension.py", line 976, in library_paths
-      if (not os.path.exists(_join_cuda_home(lib_dir)) and
-    File "/home/bpoffet/VoxFormer/voxformer_env/lib64/python3.6/site-packages/torch/utils/cpp_extension.py", line 1984, in _join_cuda_home
-      raise EnvironmentError('CUDA_HOME environment variable is not set. '
-  OSError: CUDA_HOME environment variable is not set. Please set it to your CUDA install root.
-  Preparing metadata (setup.py): finished with status 'error'
-WARNING: Discarding file:///home/bpoffet/VoxFormer/voxformer_env/DLAV_SemesterProject/scripts/mmdetection3d. Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
-ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
-Collecting timm
-  Downloading timm-0.6.12-py3-none-any.whl (549 kB)
-Requirement already satisfied: torch>=1.7 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from timm) (1.9.1+cu111)
-Requirement already satisfied: pyyaml in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from timm) (6.0)
-Requirement already satisfied: torchvision in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from timm) (0.10.1+cu111)
-Collecting huggingface-hub
-  Downloading huggingface_hub-0.4.0-py3-none-any.whl (67 kB)
-Requirement already satisfied: typing-extensions in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from torch>=1.7->timm) (4.1.1)
-Requirement already satisfied: dataclasses in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from torch>=1.7->timm) (0.8)
-Requirement already satisfied: importlib-metadata in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from huggingface-hub->timm) (4.8.3)
-Requirement already satisfied: tqdm in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from huggingface-hub->timm) (4.64.1)
-Collecting filelock
-  Downloading filelock-3.4.1-py3-none-any.whl (9.9 kB)
-Requirement already satisfied: packaging>=20.9 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from huggingface-hub->timm) (21.3)
-Requirement already satisfied: requests in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from huggingface-hub->timm) (2.27.1)
-Requirement already satisfied: numpy in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from torchvision->timm) (1.19.5)
-Requirement already satisfied: pillow>=5.3.0 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from torchvision->timm) (8.4.0)
-Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from packaging>=20.9->huggingface-hub->timm) (3.0.9)
-Requirement already satisfied: zipp>=0.5 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from importlib-metadata->huggingface-hub->timm) (3.6.0)
-Requirement already satisfied: urllib3<1.27,>=1.21.1 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from requests->huggingface-hub->timm) (1.26.15)
-Requirement already satisfied: certifi>=2017.4.17 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from requests->huggingface-hub->timm) (2022.12.7)
-Requirement already satisfied: charset-normalizer~=2.0.0 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from requests->huggingface-hub->timm) (2.0.12)
-Requirement already satisfied: idna<4,>=2.5 in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from requests->huggingface-hub->timm) (3.4)
-Requirement already satisfied: importlib-resources in /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages (from tqdm->huggingface-hub->timm) (5.4.0)
-Installing collected packages: filelock, huggingface-hub, timm
-Successfully installed filelock-3.4.1 huggingface-hub-0.4.0 timm-0.6.12
-Cloning into 'VoxFormer'...
