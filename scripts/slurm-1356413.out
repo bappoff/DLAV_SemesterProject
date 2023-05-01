@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "train.py", line 16, in <module>
-    from mmcv import Config, DictAction
-ImportError: cannot import name 'Config'
