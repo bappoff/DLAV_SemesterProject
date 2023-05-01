@@ -1,6 +1,0 @@
-/home/bpoffet/VoxFormer/voxformer_env/lib64/python3.6/site-packages/torchvision/io/image.py:11: UserWarning: Failed to load image Python extension: /home/bpoffet/VoxFormer/voxformer_env/lib/python3.6/site-packages/torchvision/image.so: undefined symbol: _ZNK2at10TensorBase21__dispatch_contiguousEN3c1012MemoryFormatE
-  warn(f"Failed to load image Python extension: {e}")
-Traceback (most recent call last):
-  File "train.py", line 21, in <module>
-    from mmdet3d import __version__ as mmdet3d_version
-ModuleNotFoundError: No module named 'mmdet3d'
