@@ -1,0 +1,8 @@
+/home/bpoffet/VoxFormer/voxformer_env/lib64/python3.6/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+Traceback (most recent call last):
+  File "train.py", line 20, in <module>
+    from mmdet import __version__ as mmdet_version
+  File "/home/bpoffet/VoxFormer/voxformer_env/lib64/python3.6/site-packages/mmdet/__init__.py", line 25, in <module>
+    f'MMCV=={mmcv.__version__} is used but incompatible. ' \
+AssertionError: MMCV==1.7.1 is used but incompatible. Please install mmcv>=1.3.8, <=1.4.0.
