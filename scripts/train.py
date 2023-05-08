@@ -15,7 +15,7 @@ import time
 import torch
 import warnings
 from mmengine.config import Config, DictAction
-from mmengine.runner import get_dist_info, init_dist
+from mmcv.runner import get_dist_info, init_dist
 from os import path as osp
 
 from mmdet import __version__ as mmdet_version
@@ -29,8 +29,6 @@ from mmdet.apis import set_random_seed
 from mmseg import __version__ as mmseg_version
 
 from mmcv.utils import TORCH_VERSION, digit_version
-
-print("all import done")
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Train a detector')
