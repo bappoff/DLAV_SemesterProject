@@ -3,6 +3,7 @@
 # -------------------------------------------------------------------
 #  Modified by Yiming Li
 # -------------------------------------------------------------------
+print("running...")
 
 from __future__ import division
 
@@ -29,6 +30,7 @@ from mmseg import __version__ as mmseg_version
 
 from mmcv.utils import TORCH_VERSION, digit_version
 
+print("all import done")
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Train a detector')
