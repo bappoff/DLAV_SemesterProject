@@ -6,7 +6,7 @@
 
 
 from __future__ import division
-print("running...")
+
 import argparse
 import copy
 import mmcv
