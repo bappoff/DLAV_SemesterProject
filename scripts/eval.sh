@@ -12,6 +12,6 @@ CHECKPOINT=$2
 GPUS=$3
 PORT=${PORT:-29503}
 
-PYTHONPATH="/work/scitas-share/voxformer/VoxFormer":$PYTHONPATH \
+PYTHONPATH="/work/scitas-share/voxformer/VoxFormer/..":$PYTHONPATH \
 python -m torch.distributed.run --nproc_per_node=$GPUS --master_port=$PORT \
     /work/scitas-share/voxformer/VoxFormer/tools/test.py $CONFIG $CHECKPOINT --launcher pytorch ${@:4} --eval bbox
