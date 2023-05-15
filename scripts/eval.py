@@ -6,7 +6,6 @@
 
 import argparse
 import mmcv
-import mmcv-full
 import os
 import torch
 import warnings
