@@ -9,8 +9,7 @@ import mmcv
 import os
 import torch
 import warnings
-import mmengine
-from mmengine import Config, DictAction
+from mmcv import Config, DictAction
 from mmcv.utils import fuse_conv_bn
 from mmcv.parallel import MMDataParallel, MMDistributedDataParallel
 from mmcv.runner import (get_dist_info, init_dist, load_checkpoint,
