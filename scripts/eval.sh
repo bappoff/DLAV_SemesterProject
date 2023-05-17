@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --output /work/scitas-share/voxformer/VoxFormer/scripts/outputs
+
 #SBATCH --nodes 1
 #SBATCH --ntasks-per-node 1
 #SBATCH --cpus-per-task 20
