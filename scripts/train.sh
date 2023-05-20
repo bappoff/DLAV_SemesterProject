@@ -14,4 +14,4 @@ PORT=${PORT:-28509}
 
 PYTHONPATH="/home/bpoffet/miniconda3/envs/voxformer_venv/..":$PYTHONPATH \
 python -m torch.distributed.launch --nproc_per_node=$GPUS --master_port=$PORT \
-    /work/scitas-share/voxformer/VoxFormer/tools/train.py $CONFIG --launcher pytorch ${@:3} --deterministic
+    /work/scitas-share/voxformer/VoxFormer/scripts/train.py $CONFIG --launcher pytorch ${@:3} --deterministic
